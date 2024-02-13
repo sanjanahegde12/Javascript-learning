@@ -1,0 +1,126 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.main-block{
+    height: 700px;
+    width: 800px;
+    border: 3px solid;
+    margin-left: 400px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.main-block >.firstrow{
+    /* border: 2px solid; */
+    height: 200px;
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-block >.firstrow>#meow{
+    height:150px ;
+    width:300px ;
+    background-color: pink;
+    color: #ff0000;
+    font-size: medium;
+    border-radius: 20%;
+}
+
+.main-block >.firstrow>#bow{
+    height:150px ;
+    width:300px ;
+    background-color: pink;
+    color: #ff0000;
+    font-size: medium;
+    /*  padding:  1px 9px 18px 13px; */
+    border-radius: 20%;
+}
+.main-block >.firstrow >.sgh:hover{
+    cursor: pointer;
+    color: black;
+    background-color: red;
+    align-items: center;
+    height: 180px ;
+    width:350px ;
+    border: 2px solid red;
+    box-shadow: 6px 6px 8px blue;
+    padding:  5px 9px 18px 13px;
+    transition: all 0.3sec ease-in-out;
+}
+
+.main-block >.secondrow{
+    /* border: 2px solid; */
+    height: 200px;
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.main-block >.secondrow>#kuhu{
+    height:150px ;
+    width:300px ;
+    background-color: pink;
+    color: #ff0000;
+    font-size: medium;
+    border-radius: 20%;
+}
+
+.main-block >.secondrow>#kaaw{
+    height:150px ;
+    width:300px ;
+    background-color: pink;
+    color: #ff0000;
+    font-size: medium;
+    border-radius: 20%;
+}
+.main-block >.secondrow >.bgh:hover{
+    cursor: pointer;
+    color: black;
+    background-color: red;
+    align-items: center;
+    height: 180px ;
+    width:350px ;
+    border: 2px solid red;
+    box-shadow: 6px 6px 8px blue;
+    padding:  5px 9px 18px 13px;
+    transition: all 0.3sec ease-in-out;
+}
+
+.main-block >.thirdrow{
+    /* border: 2px solid; */
+    height: 200px;
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-block >.thirdrow>#kokko{
+    height:150px ;
+    width:300px ;
+    background-color: pink;
+    color: #ff0000;
+    font-size: medium;
+    border-radius: 20%;
+}
+
+.main-block >.thirdrow >.gnh:hover{
+    cursor: pointer;
+    color: black;
+    background-color: red;
+    align-items: center;
+    height: 180px ;
+    width:350px ;
+    border: 2px solid red;
+    box-shadow: 6px 6px 8px blue;
+    padding:  5px 9px 18px 13px;
+    transition: all 0.3sec ease-in-out;
+}
